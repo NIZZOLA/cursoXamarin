@@ -15,15 +15,32 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Tel: (11) 0000-0000"
+            <Button Text="Meetup.com"
+                    Clicked="ButtonMeetup_Clicked"
                     Margin="10"
-                    Style="{ StaticResource botaoVermelho }" />
+                    Style="{ StaticResource botaoRoxo }" />
+            
+            <Button Text="Linkedin"
+                    Clicked="ButtonLinkedin_Clicked"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
 
-            <Label Text=""
-                    VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+            <Button Text="E-mail"
+                    Clicked="ButtonEmail_Clicked"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
 
-            <Label Text="E-mail: e060dir@cps.sp.gov.br"
+            <Button Text="Whatsapp"
+                    Clicked="ButtonWhats_Clicked"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
+            
+            <Button Text="Tel: (11) 0000-0000"
+                    Clicked="ButtonTelephone_Clicked"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
+
+            <Label Text="E-mail: itudevelopers@itudevelopers.com.br"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
         </StackLayout>

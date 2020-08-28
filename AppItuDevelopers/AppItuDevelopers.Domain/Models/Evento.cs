@@ -17,6 +17,8 @@ namespace AppItuDevelopers.Domain.Models
 
         public bool Exibir { get; set; }
 
+        public bool Imagem { get; set; }
+
         public override string ToString()
         {
             return Titulo;

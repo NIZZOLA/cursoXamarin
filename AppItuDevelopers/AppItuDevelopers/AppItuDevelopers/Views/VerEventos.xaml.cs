@@ -26,6 +26,25 @@ namespace AppItuDevelopers.Views
             BindingContext = this;
         }
 
+        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Meetup selectedItem = e.SelectedItem as Meetup;
+        }
+
+        async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Meetup tappedItem = e.Item as Meetup;
+
+            try
+            {
+                await Navigation.PushAsync(new Detalhes(tappedItem));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
+
         private IList<Meetup> GetEvents(string fileName )
         {
             try
@@ -33,7 +52,7 @@ namespace AppItuDevelopers.Views
 
             string jsonFileName = fileName;
             var listaDeEventos = new List<Meetup>();
-            var assembly = typeof(VerEvento).GetTypeInfo().Assembly;
+            var assembly = typeof(VerEventos).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{jsonFileName}");
             using (var reader = new System.IO.StreamReader(stream))
             {

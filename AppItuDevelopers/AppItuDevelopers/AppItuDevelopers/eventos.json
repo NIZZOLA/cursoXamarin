@@ -1,22 +1,45 @@
 [
   {
     "name": "1o. Meetup Itu Developers",
-    "location": "http://www.itudevelopers.com.br",
-    "imageUrl": "http://www.itudevelopers.com.br/img1.jpg"
+    "location": "https://www.meetup.com/pt-BR/DevelopersBR/events/261132446/",
+    "imageUrl": "https://miro.medium.com/max/2048/1*RLwfopfy7SuZPX_AJANwng.jpeg",
+    "data" :  "2019-06-08"
+
   },
   {
     "name": "2o. Meetup Itu Developers",
-    "location": "http://www.itudevelopers.com.br",
-    "imageUrl": "http://www.itudevelopers.com.br/img2.jpg"
+    "location": "https://www.sympla.com.br/2-meetup-itu-developers__581975",
+    "imageUrl": "https://images.sympla.com.br/5d28ad8e32517-lg.jpg",
+    "data": "2019-07-20"
   },
   {
     "name": "3o. Meetup Itu Developers",
-    "location": "http://www.itudevelopers.com.br",
-    "imageUrl": "http://www.itudevelopers.com.br/img3.jpg"
+    "location": "https://www.sympla.com.br/3-meetup-itu-developers-no-auditorio-da-prefeitura__632559",
+    "imageUrl": "https://images.sympla.com.br/5d6d482d0f2f4.jpg",
+    "data": "2019-09-14"
   },
   {
     "name": "4o. Meetup Itu Developers",
-    "location": "http://www.itudevelopers.com.br",
-    "imageUrl": "http://www.itudevelopers.com.br/img4.jpg"
+    "location": "https://www.sympla.com.br/4-meetup-itu-developers__718056",
+    "imageUrl": "https://images.sympla.com.br/5dcc510a867cc-lg.png",
+    "data": "2019-11-23"
+  },
+  {
+    "name": "5o. Meetup Itu Developers",
+    "location": "https://www.sympla.com.br/5-meetup-itu-developers__788491",
+    "imageUrl": "https://images.sympla.com.br/5e5fb8747c16b-lg.png",
+    "data": "2020-07-03"
+  },
+  {
+    "name": "6o. Meetup Itu Developers",
+    "location": "https://www.meetup.com/pt-BR/Itu-Developers/events/270632132/",
+    "imageUrl": "https://secure.meetupstatic.com/photos/event/c/b/8/d/highres_490432109.jpeg",
+    "data": "2020-05-30"
+  },
+  {
+    "name": "7o. Meetup Itu Developers",
+    "location": "https://www.meetup.com/pt-BR/Itu-Developers/events/271948622/",
+    "imageUrl": "https://secure.meetupstatic.com/photos/event/f/7/0/highres_491343952.jpeg",
+    "data": "2020-08-15"
   }
 ]

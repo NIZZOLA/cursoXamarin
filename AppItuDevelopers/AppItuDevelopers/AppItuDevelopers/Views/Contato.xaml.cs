@@ -17,7 +17,27 @@ namespace AppItuDevelopers.Views
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void ButtonMeetup_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonLinkedin_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonEmail_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonTelephone_Clicked(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("tel:11984701979"));
+        }
+
+        private void ButtonWhats_Clicked(object sender, EventArgs e)
         {
 
         }

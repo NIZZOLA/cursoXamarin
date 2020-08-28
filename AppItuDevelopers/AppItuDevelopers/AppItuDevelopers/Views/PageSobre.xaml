@@ -7,6 +7,26 @@
             <Label Text="Feito por Márcio R Nizzola!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Image Source="fotonizzola" Aspect="AspectFit"/>
+
+            <Button Text="Linkedin"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
+
+            <Button Text="Medium.com"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
+
+            <Button Text="E-mail"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
+
+            <Button Text="Tel: (11) 0000-0000"
+                    Margin="10"
+                    Style="{ StaticResource botaoRoxo }" />
         </StackLayout>
+        
+        
     </ContentPage.Content>
 </ContentPage>

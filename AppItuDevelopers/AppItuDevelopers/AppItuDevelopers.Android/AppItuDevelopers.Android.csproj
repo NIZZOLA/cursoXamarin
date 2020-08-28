@@ -127,5 +127,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\eufui.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\fotonizzola.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -53,16 +53,7 @@ namespace AppItuDevelopers
 
         private async void OpenArtigos(object sender, EventArgs e)
         {
-            try
-            {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(VerEvento)));
-                IsPresented = false;
-            }
-            catch (Exception err)
-            {
-
-                await DisplayAlert("Erro!", err.Message, "OK");
-            }
+            
         }
 
         private void OpenDicas(object sender, EventArgs e)

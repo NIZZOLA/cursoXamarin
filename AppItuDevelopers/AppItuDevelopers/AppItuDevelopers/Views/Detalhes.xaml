@@ -4,9 +4,35 @@
              x:Class="AppItuDevelopers.Views.Detalhes">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Detalhes do Evento"
+                VerticalOptions="Fill" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="titulo" 
+                   Text="titulo" 
+                   BackgroundColor="#FFF"
+                       TextColor="#672d7a"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Fill"/>
+            
+            <Label x:Name="data" 
+                   Text="teste" 
+                   BackgroundColor="#FFF"
+                       TextColor="#000"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Fill"/>
+
+            <Image x:Name="imagem"
+                               Source="https://hortifrutidoalemao.com.br/fotos/noticias/1580641260.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="100"
+                               WidthRequest="100" />
+
+            <Button x:Name="botao"
+                    Text="Inscreva-se pelo site: "
+                    Style="{ StaticResource botaoRoxo }"
+                    Clicked="botao_Clicked"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
