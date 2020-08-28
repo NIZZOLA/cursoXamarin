@@ -4,6 +4,17 @@
              x:Class="AppItuDevelopers.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Style x:Key="textoCentralizado" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="Accent" />
+            </Style>
+
+            <Style x:Key="textoCentralizadoRoxo" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="#672d7a" />
+            </Style>
+
             <Style x:Key="botaoRoxo" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#672d7a"/>
                 <Setter Property="TextColor" Value="#FFF"/>

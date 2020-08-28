@@ -16,7 +16,8 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="logo" Aspect="AspectFit"/>
+
+                    <Image Source="logoMenu" Aspect="AspectFit"/>
 
                     <Label Text="Itu Developers"
                            HorizontalTextAlignment="Center"
@@ -32,24 +33,31 @@
                              Padding="10"
                              BackgroundColor="#706f6f">
 
-                    <Button Text="Sobre" Clicked="OpenSobre" Style="{StaticResource botaoRoxo}" />
-                    <Button Text="Meetups" Clicked="OpenMeetups" Style="{ StaticResource botaoRoxo }"/>
-                    <Button Text="Vídeos" Clicked="OpenVideos" Style="{ StaticResource botaoRoxo }"/>
-                    <Button Text="Artigos" Clicked="OpenArtigos" Style="{ StaticResource botaoRoxo }"/>
-                    <Button Text="Dicas" Clicked="OpenDicas" Style="{ StaticResource botaoRoxo }"/>
-                    <Button Text="Parceiros" Clicked="OpenParceiros" Style="{ StaticResource botaoRoxo }" />
-                    <Button Text="Contato" Clicked="OpenContato" Style="{ StaticResource botaoRoxo }"/>
+                    <Button Text="Sobre" 
+                            Clicked="OpenSobre" Style="{StaticResource botaoRoxo}" />
+                    <Button Text="Meetups" 
+                            Clicked="OpenMeetups" Style="{ StaticResource botaoRoxo }"/>
+                    <Button Text="Vídeos" 
+                            Clicked="OpenVideos" Style="{ StaticResource botaoRoxo }"/>
+                    <Button Text="Artigos" 
+                            Clicked="OpenArtigos" Style="{ StaticResource botaoRoxo }"/>
+                    <Button Text="Dicas" 
+                            Clicked="OpenDicas" Style="{ StaticResource botaoRoxo }"/>
+                    <Button Text="Parceiros" 
+                            Clicked="OpenParceiros" Style="{ StaticResource botaoRoxo }" />
+                    <Button Text="Contato" 
+                            Clicked="OpenContato" Style="{ StaticResource botaoRoxo }"/>
 
                 </StackLayout>
-                             
+
             </Grid>
-            
+
         </ContentPage>
     </MasterDetailPage.Master>
-    
+
     <MasterDetailPage.Detail>
         <NavigationPage>
-            
+
         </NavigationPage>
     </MasterDetailPage.Detail>
 

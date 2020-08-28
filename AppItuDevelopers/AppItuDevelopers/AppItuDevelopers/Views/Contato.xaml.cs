@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace AppItuDevelopers.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Inicial : ContentPage
+    public partial class Contato : ContentPage
     {
-        public Inicial()
+        public Contato()
         {
             InitializeComponent();
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

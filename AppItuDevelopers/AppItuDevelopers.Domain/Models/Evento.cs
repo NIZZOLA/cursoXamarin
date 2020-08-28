@@ -6,7 +6,6 @@ namespace AppItuDevelopers.Domain.Models
 {
     public class Evento
     {
-
         public string Titulo { get; set; }
         public TipoEvento Tipo { get; set; }
 
@@ -17,5 +16,10 @@ namespace AppItuDevelopers.Domain.Models
         public string Link { get; set; }
 
         public bool Exibir { get; set; }
+
+        public override string ToString()
+        {
+            return Titulo;
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppItuDevelopers.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -14,17 +15,35 @@ namespace AppItuDevelopers
         {
             InitializeComponent();
 
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Views.Inicial)));
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
         }
 
-        private void OpenSobre(object sender, EventArgs e)
+        private async void OpenSobre(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(PageSobre)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
 
+                await DisplayAlert("Erro!", err.Message, "OK");
+            }
         }
 
-        private void OpenMeetups(object sender, EventArgs e)
+        private async void OpenMeetups(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(VerEventos)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
 
+                await DisplayAlert("Erro!", err.Message, "OK");
+            }
         }
 
         private void OpenVideos(object sender, EventArgs e)
@@ -32,9 +51,18 @@ namespace AppItuDevelopers
 
         }
 
-        private void OpenArtigos(object sender, EventArgs e)
+        private async void OpenArtigos(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(VerEvento)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
 
+                await DisplayAlert("Erro!", err.Message, "OK");
+            }
         }
 
         private void OpenDicas(object sender, EventArgs e)
@@ -48,9 +76,18 @@ namespace AppItuDevelopers
 
         }
 
-        private void OpenContato(object sender, EventArgs e)
+        private async void OpenContato(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
+                IsPresented = false;
+            }
+            catch (Exception err)
+            {
 
+                await DisplayAlert("Erro!", err.Message, "OK");
+            }
         }
 
 

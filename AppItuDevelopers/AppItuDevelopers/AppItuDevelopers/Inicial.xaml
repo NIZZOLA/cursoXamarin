@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppItuDevelopers.Inicial"
+             BackgroundColor="#CCC"
+             Title="App Itu Developers">
+    
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Padding="10">
+
+                <Label Text="Este é o APP da Comunidade Itu Developers"
+                   FontSize="Medium"
+                   Style="{ StaticResource textoCentralizado }" />
+
+                <Label Text="Nossa comunidade para difundir as melhores práticas de programação para Itu e Região"
+                   FontSize="Medium"
+                   Style="{ StaticResource textoCentralizado }" />
+
+                <Label Text="Em breve este App estará disponível na Play Store para download."
+                   TextColor="#AB0209"
+                   Style="{ StaticResource textoCentralizado }"/>
+
+                <Image Source="eufui" />
+
+                <Label Text="App criado no Curso de Xamarin Forms"
+                   Style="{ StaticResource textoCentralizado }" />
+
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

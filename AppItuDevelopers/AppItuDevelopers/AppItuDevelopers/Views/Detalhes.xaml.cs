@@ -1,5 +1,4 @@
-﻿using AppItuDevelopers.Domain.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace AppItuDevelopers.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class VerEvento : ContentPage
+    public partial class Detalhes : ContentPage
     {
-        public VerEvento(Evento evento)
+        public Detalhes()
         {
             InitializeComponent();
-            this.BindingContext = evento;
         }
     }
 }
